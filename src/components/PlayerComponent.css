@@ -1,0 +1,36 @@
+.PlayerComponent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.PlayerComponent__Name {
+    width: 100%;
+    text-align: center;
+}
+
+.PlayerComponent__Move {
+    text-align: center;
+    opacity: 0;
+    font-weight: 500;
+    color: #00be00;
+}
+
+.PlayerComponent__Move._active {
+    opacity: 1;
+}
+
+.PlayerComponent__Figure{
+    width: 1.4rem;
+    filter: drop-shadow(0 0 0.2rem rgba(171,27,27, 0.6));
+    margin-right: 0.4rem;
+}
+
+.PlayerComponent__ListName {
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+.PlayerComponent__FiguresList {
+    padding-left: 1.2rem;
+}
